@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\Pykha\source\repos\Installior\Installior\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Source\ResourceDictionaries\ButtonDictionary.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Source\ResourceDictionaries\TextDictionary.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\InstallationChoosePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\StartPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Source\Fonts\Inter-Bold.ttf" />
+    <Resource Include="Source\Fonts\Inter-BoldItalic.ttf" />
+    <Resource Include="Source\Fonts\Inter-Italic.ttf" />
+    <Resource Include="Source\Fonts\Inter-Light.ttf" />
+    <Resource Include="Source\Fonts\Inter-LightItalic.ttf" />
+    <Resource Include="Source\Fonts\Inter-Medium.ttf" />
+    <Resource Include="Source\Fonts\Inter-MediumItalic.ttf" />
+    <Resource Include="Source\Fonts\Inter-Regular.ttf" />
+    <Resource Include="Source\Fonts\Inter-SemiBold.ttf" />
+    <Resource Include="Source\Fonts\Inter-SemiBoldItalic.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="View\InstallationChoosePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\StartPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

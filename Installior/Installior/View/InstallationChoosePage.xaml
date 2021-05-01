@@ -1,0 +1,22 @@
+﻿<Page x:Class="Installior.View.InstallationChoosePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Installior.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="480"
+      Title="InstallationChoosePage" >
+
+    <Grid>
+        <TextBlock Style="{StaticResource Title}" FontFamily="{StaticResource Inter}" Text="Installing app to
+                       your computer" Height="110" />
+
+        <TextBlock HorizontalAlignment="Left" Margin="30,117,30,0" FontSize="16" FontFamily="{StaticResource Inter}" FontWeight="SemiBold" Width="420" TextWrapping="Wrap" VerticalAlignment="Top">
+            We can ourselves choose the optimal parameters for installing the program on your computer.
+        </TextBlock>
+
+        <Button Style="{StaticResource SmallSubmitButton}">Okay</Button>
+        <Button Style="{StaticResource CancelButton}">No, i'll figure it myself</Button>
+    </Grid>
+</Page>
